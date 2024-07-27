@@ -1,0 +1,87 @@
+body {
+    background-color: lightgray;
+}
+
+.buttons {
+    margin: 50px;
+    text-align: center;
+}
+
+.buttons button {
+    margin: 0 10px; /* Adjust the value to increase/decrease the gap */
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the value to increase/decrease the gap between boxes */
+}
+
+#box1, #box2 {
+    height: auto; /* Allow the height to adjust based on content */
+    width: 400px;
+    border: 1px solid white;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Align items at the start vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding to create space inside the box */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+#box1Title, #box2Title {
+    width: 100%; /* Ensures the title takes full width */
+    text-align: center; /* Centers the text horizontally */
+}
+
+.table {
+    width: 100%; /* Ensure the table takes full width of the container */
+    background-color: antiquewhite; /* Match the background color of the div */
+    
+}
+
+.table th, .table td {
+    text-align: center; /* Center-align text in the table cells */
+    background-color: antiquewhite; /* Light grey for table headers */
+    font-weight: bold; /* Make table headers bold */
+    border: none;
+}
+
+.tbo{
+    background-color: antiquewhite;
+}
+
+
+.table .btn {
+    margin: 0; /* Remove extra margin around buttons */
+}
+
+
+.container2 {
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Adjust the value to increase/decrease the gap between boxes */
+}
+
+#box3, #box4 {
+    height: auto; /* Allow the height to adjust based on content */
+    width: 400px;
+    border: 1px solid white;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    display: flex;
+    flex-direction: column; /* Stack children vertically */
+    justify-content: flex-start; /* Align items at the start vertically */
+    align-items: center; /* Center items horizontally */
+    padding: 20px; /* Add padding to create space inside the box */
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+}
+
+
+#box3Title, #box4Title {
+    width: 100%; /* Ensures the title takes full width */
+    text-align: center; /* Centers the text horizontally */
+}
